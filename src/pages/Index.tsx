@@ -4,6 +4,7 @@ import HowItWorks from '@/components/HowItWorks';
 import Features from '@/components/Features';
 import ForCouples from '@/components/ForCouples';
 import ForGuests from '@/components/ForGuests';
+import EarlyAccess from '@/components/EarlyAccess';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <Features />
       <ForCouples />
       <ForGuests />
+      <EarlyAccess />
       <Footer />
     </div>
   );

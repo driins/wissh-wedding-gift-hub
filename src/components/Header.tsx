@@ -40,7 +40,7 @@ const Header = () => {
               Masuk
             </Button>
             <Button className="btn-hero">
-              Mulai Sekarang
+              Daftar Early Access
             </Button>
           </div>
 
@@ -101,7 +101,7 @@ const Header = () => {
                   Masuk
                 </Button>
                 <Button className="btn-hero">
-                  Mulai Sekarang
+                  Daftar Early Access
                 </Button>
               </div>
             </nav>

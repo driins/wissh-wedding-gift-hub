@@ -37,12 +37,19 @@ const Hero = () => {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="btn-hero group">
-                Buat Wishlist Gratis
+                Daftar Early Access
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" className="btn-outline-rose">
                 Lihat Demo
               </Button>
+            </div>
+
+            {/* Early Access Notice */}
+            <div className="bg-gradient-to-r from-rose-gold/10 to-primary/10 border border-rose-gold/20 rounded-2xl p-4">
+              <p className="text-sm text-center">
+                <span className="font-semibold text-primary">🎉 Launch Soon!</span> Daftar sekarang untuk akses awal dan dapatkan <span className="font-semibold text-rose-gold">diskon 50%</span> untuk setup wishlist pertama
+              </p>
             </div>
 
             {/* Stats */}

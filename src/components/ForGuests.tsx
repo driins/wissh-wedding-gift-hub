@@ -117,7 +117,7 @@ const ForGuests = () => {
             </div>
 
             <Button className="btn-hero">
-              Coba Sekarang
+              Tertarik Coba WISSH
             </Button>
           </div>
         </div>
